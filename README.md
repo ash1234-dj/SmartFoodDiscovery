@@ -17,7 +17,7 @@ The heart of the app where all the important numbers live. Here's what you can s
   - Active Listeners (people listening right now!)
   - Total Streams accumulated
 
-[]
+
 
  🎸 Artist Page
 This is where the magic happens. Pick a language, and boom – you get the hottest tracks trending in that language.
@@ -111,7 +111,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Have questions or just want to chat about music and code? Reach out!
 
 - GitHub: [@ash1234-dj](https://github.com/ash1234-dj)
-- Email: your.email@example.com
+- Email: ashfaqahmedios.999@gmail.com
 
 ---
 
