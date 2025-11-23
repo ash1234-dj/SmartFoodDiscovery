@@ -1,118 +1,67 @@
- 🎵 Spotify Artist Dashboard
+✨ What It’s About
+Ever felt stuck deciding what to eat? SmartFoodDiscovery makes it simple. Whether you’re craving something new, exploring local cuisine, or just browsing for ideas, this app is your foodie companion.
 
-A beautiful iOS app built with SwiftUI that brings real-time artist analytics and music trends right to your fingertips. Stay connected with your favorite artists through live stats, trending songs, and the latest news from the community.
+🚀 Key Features
+• Browse & Discover
+Search for dishes or restaurants by name, cuisine, or location
+Explore curated lists: Trending now, Nearby favourites, Healthy picks
+• Personalized Recommendations
+Based on your past selections and preferences
+Adaptive suggestions as you interact more
+• Restaurant Profiles
+View details: menu, photos, reviews, operating hours
+Filter by dietary preferences (vegetarian, vegan, gluten-free)
+• Save & Share
+Bookmark your favourites for quick access
+Share dishes/restaurants with friends via link or social media
 
- ✨ What's This All About?
+🛠 Tech Stack
+Frontend: SwiftUI + Swift — for a fast, modern iOS experience
+Backend/API: (adjust as needed) e.g., Firebase / RESTful service — handles user data and real-time updates
+Data Sources: External APIs (e.g., food/restaurant directory) — fetch dish & restaurant metadata
+🎬 How It Works
+Launch the app → home screen shows “Discover” tab with trending food-items
+Use search to find specific dishes or restaurants
+Tap into an item → see details, save, or share
+Visit “Saved” tab to access your bookmarks easily
+✅ Getting Started
+# Clone the repository  
+git clone https://github.com/ash1234-dj/SmartFoodDiscovery.git  
 
-Ever wanted to track your favorite artists' performance in real-time? This dashboard does exactly that. I built it to make discovering music trends and staying updated with artist news super easy and fun. Whether you're a music enthusiast, an aspiring artist, or just curious about what's trending, this app has got you covered.
+# Open the Xcode project  
+open SmartFoodDiscovery.xcodeproj  
 
- 🚀 Features
+# (If using CocoaPods or Swift Package Manager) Install dependencies  
+# Add required configuration files (API keys, plist, etc.)  
 
-### 📊 Main Dashboard
-The heart of the app where all the important numbers live. Here's what you can see:
+# Build & Run on a simulator or physical iOS device  
+⚙️ Setup
+Create your backend/config accounts (e.g., Firebase project)
+Obtain API credentials for the food/restaurant data sources
+Add configuration file(s) (e.g., GoogleService-Info.plist) to the Xcode project
+Update the configuration in the code (API keys, endpoints)
 
-- **Real-time Artist Statistics**
-  - Total Subscribers count
-  - Total Listeners across all platforms
-  - Active Listeners (people listening right now!)
-  - Total Streams accumulated
+🎨 Design Philosophy
+The goal is minimal, intuitive, and delightful. No clutter — just clear visuals, smooth animations, and a fluid user flow powered by SwiftUI.
 
+🔮 Future Plans
+Expand to include full menu-item integration & ordering support
+Add dietary filters and user preferences (e.g., allergies)
 
+Dark mode & dynamic theming
+Push notifications for new nearby restaurants or trending dishes
+Social features: follow friends, see their saved meals
 
- 🎸 Artist Page
-This is where the magic happens. Pick a language, and boom – you get the hottest tracks trending in that language.
+🤝 Contributing
+Found a bug? Have a feature idea? Pull requests and issues are welcome. Please keep contributions focused, readable, and consistent with project style.
 
-- **Language Selection** - Choose from multiple languages to explore regional music trends
-- **Top Trending Songs** - Get the latest trending tracks for your selected language
-- **Fresh Data** - Everything updates in real-time so you're always in the loop
+📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+✉️ Contact
 
+Questions or feedback? Reach out:
+GitHub: @ash1234-dj
 
- 🗣️ Social Feed
-Because music is better when you're part of a community. This section pulls in the latest buzz from Reddit.
+Email: ashfaqahmedios.999@gmail.com
 
-- **Latest News & Updates** - Stay informed about your favorite artists
-- **Community Discussions** - See what fans are talking about
-- **Reddit Integration** - Real-time feeds from music subreddits
-
-
-
- 🛠️ Tech Stack
-
-**Frontend:**
-- SwiftUI - For that smooth, native iOS experience
-- Swift - Because we're keeping it Apple
-
-**Backend:**
-- Firebase - Handling all our real-time data and authentication
-- Firebase Realtime Database - For those lightning-fast updates
-- Firebase Cloud Functions - Running backend logic
-
-**APIs:**
-- Spotify API - For artist data and streaming stats
-- Reddit API - For community news and discussions
-
- 📱 Screenshots
-
-
-
- 🎯 How It Works
-
-1. **Launch the app** - You're greeted with the main dashboard showing live artist stats
-2. **Explore trends** - Head to the Artist page, select a language, and discover what's hot
-3. **Stay updated** - Check the Social page for the latest artist news and fan discussions
-
- 🔧 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/SmartFoodDiscovery.git
-
-# Open the project in Xcode
-open SpotifyDashboard.xcodeproj
-
-# Install dependencies (if using CocoaPods or SPM)
-# Add Firebase configuration
-
-# Build and run
-```
-
- ⚙️ Setup
-
-1. Set up a Firebase project at [firebase.google.com](https://firebase.google.com)
-2. Download your `GoogleService-Info.plist` file
-3. Add it to your Xcode project
-4. Configure Spotify API credentials
-5. Set up Reddit API access
-6. Update the configuration files with your API keys
-
-## 🎨 Design Philosophy
-
-I wanted this app to feel intuitive and enjoyable. No clutter, no confusion – just clean data presentation and smooth interactions. The SwiftUI framework helped bring this vision to life with beautiful animations and responsive design.
-
- 🔮 Future Plans
-
-- [ ] Add more streaming platforms (Apple Music, YouTube Music)
-- [ ] Personalized artist recommendations
-- [ ] Dark mode support
-- [ ] Push notifications for trending songs
-- [ ] Share stats and songs with friends
-- [ ] Historical data and trend graphs
-
- 🤝 Contributing
-
-Found a bug? Have a cool feature idea? Feel free to open an issue or submit a pull request. I'd love to make this app even better with your help!
-
-📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
- 💬 Contact
-
-Have questions or just want to chat about music and code? Reach out!
-
-- GitHub: [@ash1234-dj](https://github.com/ash1234-dj)
-- Email: ashfaqahmedios.999@gmail.com
-
----
-
-Made with ❤️ and lots of ☕ by a music lover who codes
+Made with ❤️ and plenty of good food ideas.
